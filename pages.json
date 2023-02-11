@@ -1,0 +1,67 @@
+{
+	"pages": [{
+			"path": "pages/home/home"
+		}, {
+			"path": "pages/my/my"
+		}
+	],
+	"subpackages": [{
+		"root": "subPackage",
+		"pages": [{
+				"path": "pages/borrow/borrow"
+			},
+			{
+				"path": "pages/detail/detail"
+			},
+			{
+				"path": "pages/feedBack/feedBack"
+			},
+			{
+				"path": "pages/joinActive/joinActive"
+			},
+			{
+				"path": "pages/lostAndFound/lostAndFound"
+			},
+			{
+				"path": "pages/return/return"
+			},
+			{
+				"path": "pages/skin-change/skin-change"
+			},
+			{
+				"path": "pages/VolunteerDemeanor/VolunteerDemeanor"
+			},
+			{
+				"path": "pages/detailMsg/detailMsg"
+			}
+		]
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "青队志愿服务平台",
+		"navigationBarBackgroundColor": "#0080FF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"selectedColor": "#C00000",
+		"list": [{
+				"pagePath": "pages/home/home",
+				"text": "首页",
+				"iconPath": "static/tab_icons/home.png",
+				"selectedIconPath": "static/tab_icons/home-active.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "static/tab_icons/my.png",
+				"selectedIconPath": "static/tab_icons/my-active.png"
+			}
+		]
+	},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"fui-(.*)": "firstui-uni/firstui/fui-$1/fui-$1.vue"
+		}
+	}
+}

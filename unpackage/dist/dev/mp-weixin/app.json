@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/my/my"
+  ],
+  "subPackages": [
+    {
+      "root": "subPackage",
+      "pages": [
+        "pages/borrow/borrow",
+        "pages/detail/detail",
+        "pages/feedBack/feedBack",
+        "pages/joinActive/joinActive",
+        "pages/lostAndFound/lostAndFound",
+        "pages/return/return",
+        "pages/skin-change/skin-change",
+        "pages/VolunteerDemeanor/VolunteerDemeanor",
+        "pages/detailMsg/detailMsg"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "青队志愿服务平台",
+    "navigationBarBackgroundColor": "#0080FF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "selectedColor": "#C00000",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "static/tab_icons/home.png",
+        "selectedIconPath": "static/tab_icons/home-active.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/tab_icons/my.png",
+        "selectedIconPath": "static/tab_icons/my-active.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
